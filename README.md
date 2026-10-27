@@ -101,9 +101,9 @@ npm run dev
 1. Go to [netlify.com](https://netlify.com) → **Add new site** → **Import from Git**
 2. Connect your GitHub repo
 3. Build settings (auto-detected from `netlify.toml`):
-   - **Base directory**: `frontend/`
-   - **Build command**: `npm install && npm run build`
-   - **Publish directory**: `frontend/dist`
+   - **Base directory**: `frontend` (or leave empty if using root netlify.toml)
+   - **Build command**: `npm run build`
+   - **Publish directory**: `dist` (or `frontend/dist` if Base directory is empty)
 4. Add **Environment Variable** in Netlify:
    - Key: `VITE_API_URL`
    - Value: your Render URL e.g. `https://brand-immune-system-api.onrender.com`
