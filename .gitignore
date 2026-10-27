@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyd
+*.pyo
+*.pyw
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.so
+venv/
+env/
+.venv/
+.env
+.env.*
+!.env.production.example
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+node_modules/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Test files
+test_*.py
